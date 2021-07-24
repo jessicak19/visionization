@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: rgb(255, 241, 253);
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 60px;
+}
+h2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+h3 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.port {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* STYLE IMAGES */
+img {
+  max-width: 400px;
+  max-height: 300px;
+  border: 7px solid rgb(255, 167, 186);
+  padding: 5px;
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+#thing {
+  max-width: 400px;
+  max-height: 300px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 1em;
+  padding-top: 1em;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.3em;
+  padding: 0.4em;
+  padding-left: 1em; 
+  padding-right: 1em;
+}
+li a:hover {
+  background-color: #c7f3f3
+}
+
+a {
+  color: rgb(48, 129, 161);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(147, 207, 218);  
+}
+
+button {
+  margin-left: 50px;
+  background-color: #c7f3f3;
+  padding: 15px;
+  border-color: #6eb1b1;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* helpers page side by side image */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 45%
+  ;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.helperText {
+  padding: 0;
+}
+.floatimg {
+  border: none;
+  padding-left: 10%;
+  width: 100%;
+  min-height: 100%;
+}
+.floatText {
+  border: none;
+  padding-left: 10%;
+}
+
+/* presentation embed */
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
