@@ -142,7 +142,7 @@ iframe {
 
 /* button */
 .button {
-  background-color: #1c87c9;
+  background-color: pink;
   border: none;
   color: white;
   padding: 20px 34px;
@@ -151,5 +151,6 @@ iframe {
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
+  margin-left: 50px;
   cursor: pointer;
 }
